@@ -24,7 +24,7 @@ MTU(Maximum Transmission Unit)=1500 bytes
 - `void setLength(int t)`
 - `void setPort(int p)`
 
-```
+```java
 try{
   String msj = "un mensaje";
   byte[] b = msj.getBytes();
