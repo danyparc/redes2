@@ -6,16 +6,20 @@ public class C_HM_D{
     try{
       BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
       int pto=9000;
-
-      DatagramSocket s = new DatagramSocket(pto);
-      System.out.println("Esperando mensaje...");
-      for(;;){
-      DatagramPacket p = new DatagramPacket(new byte[1500],1500);
-      s.receive(p);
-      System.out.println("Mensaje recibido desde:"+p.getInetAddress()+":"+p.getPort());
-      String datos = new String(p.getData(),0,p.getLength());
-      System.out.println("Datos: "+datos);
-      }
+      System.out.println("Escribe la dirección del servidor:");
+      String host = br.readLine();
+      System.out.println("Escribe un mensaje: ");
+      String msj = br.readLine();
+      byte[] b= msj.getBytes();
+      /*Si el tamaño de byte > 65535 hay que manejar los envíos de alguna forma
+      * Enviar en pedacitos
+      */
+      DatagramSocket cl = new DatagramSocket();
+      System.out.println("Enviando mensaje...");
+      DatagramPacket p = new DatagramPacket(b, b.length, InetAddress.getByName(host), pto);
+      cl.send(p);
+      System.out.println("Mensaje enviado");
+      cl.close();
     }catch (Exception e) {
       e.printStackTrace();
     }
