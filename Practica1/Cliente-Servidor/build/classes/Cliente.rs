@@ -1,0 +1,5 @@
+dragdropmultiplesarchivos.LaminaMarcoCliente
+dragdropmultiplesarchivos.Cliente
+dragdropmultiplesarchivos.LaminaMarcoCliente$SeleccionarArchivo
+dragdropmultiplesarchivos.MarcoCliente
+dragdropmultiplesarchivos.LaminaMarcoCliente$EnviaDoc

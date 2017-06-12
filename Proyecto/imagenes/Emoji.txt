@@ -1,0 +1,9 @@
+tring msj = escribe.getText();
+            msj=msj.replace(":)"," <img class=img src='file:imagenes/feliz.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(":("," <img class=img src='file:imagenes/triste.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(":´("," <img class=img src='file:imagenes/llorar.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(">_<"," <img class=img src='file:imagenes/enojado.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(";)"," <img class=img src='file:imagenes/guiño.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(":*"," <img class=img src='file:imagenes/beso.png' height=\"25\" width=\"25\">");
+            msj=msj.replace(":8"," <img class=img src='file:imagenes/lentes.png' height=\"25\" width=\"25\">");
+        System.out.println(msj);

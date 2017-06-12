@@ -1,4 +1,4 @@
-
+/*
 try{
   ServerSocket s = new ServerSocket(1234);
   // s= new Socket();
@@ -17,3 +17,4 @@ try{
     bus.flush();
   }
 }
+*/

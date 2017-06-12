@@ -4,7 +4,7 @@ import java.io.*;
 public class C_HM_DS{
   public static void main(String[] args) {
     try{
-      BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+      //BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
       int pto=9000;
 
       DatagramSocket s = new DatagramSocket(pto);

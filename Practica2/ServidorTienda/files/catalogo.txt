@@ -1,0 +1,2 @@
+Tennis Nike	1	1999.0	485	Tennis muy comodos y de marca Mundial.	n1.jpg	n2.jpg	n3.jpg	
+Tennis Adidas	2	2499.0	194	De estilo mas casual.	a1.jpg	a2.jpg	a3.jpg	

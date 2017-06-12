@@ -1,0 +1,6 @@
+Practica1. Servicio de transferencia de archivos
+Implementar una aplicacion cliente-Servidor que permita:
++Enviar uno o mas archivos desde el mimo o distintos directorios, ya sea 
+ seleccionandolos o arrastrandolos (Drag & Drop).
++Visualizar tanto del lado del cliente, asi como del servidor el porcentaje
+ de envio de cada archivo.
